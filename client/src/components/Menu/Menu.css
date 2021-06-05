@@ -1,0 +1,59 @@
+.menuDisplay {
+   margin-left: 25%;
+   width: 669px;
+}
+
+#title{
+   text-align: center;
+}
+
+#menuContainer {
+   flex-direction: row;
+}
+
+#menuItem {
+   padding: 15px;
+   width: 25%;
+   height:fit-content;
+   
+}
+
+.item {
+   width:200px;
+   
+   padding: 10px;
+}
+
+.menuName{
+   font-weight: bold;
+   text-align: center;
+   width: fit-content;
+   font-size: 19px;
+}
+
+.alternatives {
+   width: 669px;
+   margin-left: 25%;
+}
+
+.teaItems {
+   align-self: center;
+   align-content: center;
+   text-align: center;
+   
+}
+
+.foodItem {
+   font-weight: bold;
+}
+
+.food {
+   text-align: center;
+}
+
+.Card {
+   width: 25%;
+
+}
+
+

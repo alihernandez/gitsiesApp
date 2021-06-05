@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-color: #e96196;
+background-image: linear-gradient(315deg, #f31ee6 0%, #e9edee 34%);
+ backdrop-filter: blur(5px);
+  min-height: 100vh;
+}
+
+h1, h2{
+  font-family: LibreBaskerville;
+  text-align: center;
+}
+
+p{
+  font-family: Nunito;
+}
+
+header {
+  margin: 20px;
+  text-align: center;
+}
+
+.success {
+  color: #0ff40f;
+}
+
+.error {
+  color: #960303;
+}
+
+.gitsiesLogo img {
+ height:300px;
+ width: max-content;
+}
