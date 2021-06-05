@@ -5,6 +5,7 @@ import load1 from "../../images/load2.gif";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
+import {ToastContainer} from 'react-toastify'
 
 
 
@@ -67,7 +68,9 @@ const Contact = (props) => {
   };
 
   return (
+    
     <div className="main-container">
+      <ToastContainer />
       <div className="central-form">
         <h2 className="title">Contact form</h2>
 

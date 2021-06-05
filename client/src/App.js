@@ -1,5 +1,5 @@
 // import './App.css'; 
-// import {ToastContainer} from 'react-toastify'
+
 // import 'react-toastify/dist/ReactToastify.css';
 // import Contact from './components/Contact';
 
@@ -15,6 +15,7 @@
 // export default App;
 
 import React from "react";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/Home/Home";
