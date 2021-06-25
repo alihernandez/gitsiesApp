@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardDeck,
-  CardSubtitle, CardBody
+  Card, Col, Container, Button, CardImg, CardTitle, CardText, CardDeck,
+  CardSubtitle, CardBody, Row
 } from 'reactstrap';
 import coldCup from '../../images/coldCup.jpg';
 import hotCup from '../../images/hotCup.jpg';
@@ -16,7 +16,7 @@ import "../../App.css";
 
 export default function Menu(props) {
   return (
-    <div>
+    <div className=".col-sm-12 .col-md-6 .offset-md-3">
      
 
       {/* <h1 id="title">Gitsie's Menu</h1>
@@ -30,9 +30,12 @@ export default function Menu(props) {
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p> */}
       {/* <div> */}
-      <CardDeck>
-      <Card>
-        <CardImg top width="100%" height="35%" src={coldCup} alt="Card image cap" />
+      <Row>
+        <Col md="12" md={{ size: 3, offset: 4 }}>
+          
+          <CardDeck>
+      <Card className="cold">
+        <CardImg className="cardImg" src={coldCup} alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">Cold Drink Menu</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
@@ -42,8 +45,8 @@ export default function Menu(props) {
           </Link>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" height="35%" src={hotCup} alt="Card image cap" />
+      <Card className="hot">
+        <CardImg className="cardImg" top width="100%" height="35%" src={hotCup} alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">Hot Drink Menu</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
@@ -55,8 +58,8 @@ export default function Menu(props) {
           
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" height="35%" src={foodImg} alt="Card image cap" />
+      <Card className="food">
+        <CardImg className="cardImg" top width="100%" height="35%" src={foodImg} alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">Food Menu</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
@@ -66,7 +69,9 @@ export default function Menu(props) {
           </Link>
         </CardBody>
       </Card>
-    </CardDeck>
+    </CardDeck></Col>
+      </Row>
+      
     <br />
       {/* <table class="menuDisplay">
         <th class="menuName" colspan="3">
