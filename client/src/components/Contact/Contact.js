@@ -6,6 +6,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import {ToastContainer} from 'react-toastify'
+import gits from "../../images/GitsieHerself.jpg";
 
 
 
@@ -77,7 +78,7 @@ const Contact = (props) => {
         <div className="back-form">
           <div className="img-back">
             <h4>Send your message</h4>
-            <img src={imgBack} alt="" />
+            <img id="gits" src={gits} alt="gitsieHerself" />
           </div>
 
           <form onSubmit={formSubmit}>

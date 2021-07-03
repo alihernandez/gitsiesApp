@@ -24,6 +24,8 @@ import Cal from "./components/Calendar/Calendar";
 import Contact from "./components/Contact/Contact";
 import Learn from "./components/SuperSecret/Learn";
 import hotDrink from "./components/Menu/hotDrinkMenu";
+import coldDrink from "./components/Menu/coldDrinkMenu";
+import food from "./components/Menu/foodMenu";
 import MenuData from "./components/MenuData/MenuData";
 import food_menu from "./menu.json";
 import './App.css';
@@ -43,6 +45,8 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/contact/learn" component={Learn} />
         <Route exact path="/hotDrink" component={hotDrink} />
+        <Route exact path="/coldDrink" component={coldDrink} />
+        <Route exact path="/food" component={food} />
       </div>
     </Router>
     </div>

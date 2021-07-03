@@ -45,6 +45,16 @@
 .back-form .img-back{
     width: 100%;
     margin-bottom: 20px;
+    height: 75%;
+}
+
+#gits {
+    height: 25%;
+}
+
+.img-back {
+    height: fit-content;
+    width: fit-content;
 }
 
 .img-back h4{
@@ -53,6 +63,7 @@
     color: green;
     font-size: 18px;
     font-style: italic;
+    
 }
 
 .back-form .img-back img{

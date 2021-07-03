@@ -1,3 +1,66 @@
-.cardImg {
-   height: fit-content;
+.gitcard {
+
+  width: fit-content;
+  height: fit-content;
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: rgb(0, 0, 0);
+  box-shadow: 20px 20px rgb(184, 101, 163);
+  transition: all .4s ease;
+  text-align: center;
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  Font-Size: 35px;
+  Font-Family: 'Cabin', Sans-Serif;
+  Font-Size: 16px;
 }
+
+.menus {
+   padding-top: 15px;
+}
+
+.gitcard:hover {
+   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.drinkImg {
+  height: 14rem;
+}
+
+.cold, .hot, .food{
+   padding: 10px;
+   border:solid 20px rgb(172, 73, 147);
+   
+}
+
+.hotdrink {
+   display: flex;
+   flex-direction: column;
+   padding:0.5rem;
+   max-height: 40rem;
+   overflow-y: scroll;
+   border: #dd9ad7;
+   border-radius: 10px;
+   border-style: solid;
+   border-width: .5rem;
+}
+
+.hotItem {
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 1rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    background: #dd9ad7;
+    position: relative;
+}
+
+.hotHead {
+   text-align: center;
+   align-content: center;
+}
+
+.addOns {
+   padding:5%;
+   font-weight: bold;
+}
+

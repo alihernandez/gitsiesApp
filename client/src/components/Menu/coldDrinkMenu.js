@@ -10,6 +10,7 @@ import {
   CardSubtitle,
   Button,
 } from "reactstrap";
+import drip from "../../images/dripCoffee.jpg";
 import "./Menu.css";
 export default function coldDrink(props) {
     return (

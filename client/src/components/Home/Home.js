@@ -1,5 +1,9 @@
 import React from "react";
 import {useSpring, animated} from 'react-spring'
+import fbIcn from "../../icons/facebook.png";
+import igIcn from "../../icons/instagram.png";
+import foodTruck from "../../images/FoodTruck2.jpg";
+
 
 // import Contact from "../Contact/Contact";
 import "../../App.css";
@@ -19,18 +23,58 @@ function Home() {
         </animated.div>
       </div>
       <p style={{textAlign:"center"}}>
-      Gitsie's is a mobile specialty coffee shop. Offering Coffee, Tea, Espresso, Pastries and light fare. Please contact us at Gitsies@gmail.com
+      Gitsie’s Coffee & Provisions is proud to call the Roaring Fork Valley home! 
+      <br /> We are currently booking events for August and beyond. 
+      <br /> Keep a lookout for popup events through our social media.
       </p>
       <br />
-        <h3>Private Events</h3>
-        
-        <ul style={{textAlign:"center"}}>Gitsie's Specialty Coffee is fully equipped to cater your
-        event, no matter how big or small, with high end coffee service and a
-        custom food menu to suit your needs.
-          <li>-Business Meetings -Fundraisers</li>
-        <li>-Sporting Events -Weddings -Corporate Events -Private Parties</li>
-        </ul> 
 
+      <div className="aboutUs">
+      <h2>About Us</h2>
+
+      <p>We are a homegrown, women owned business that has been traveling the country, serving
+specialty coffee and food, since 2015. One of our co-owners was born and raised here in the
+valley, so when COVID clipped our wings, we couldn't think of a better place to call home.</p>
+
+<p>Coffee is the foundation and life-blood of our restaurant. We serve only the best coffee that is
+artfully sourced and roasted by STRONGTREE COFFEE. Our food menu was thoughtfully
+curated to provide you with simple, fresh, organic and wholesome fare.</p>
+
+<p>Caring for our Earth is very important at Gitsie’s, and all of our disposables (to-go cups,
+containers, etc) are all 100% compostable and made from sustainable sources. We are always
+looking to find ways to reduce our impact.</p>
+
+<p>We have specialized in catering world class equestrian events, but have also set up at art fairs,
+corporate events, charity events, concerts, other sporting events, and private parties. Gitsie’s
+can custom design a food menu to suit your event needs and there will always be a full service
+espresso bar. Please contact us to book for the summer of 2021!</p>
+<br />
+<img className="foodTruck" src= {foodTruck} alt="fooTru"/>
+<p>We look forward to serving you!</p>
+</div>
+
+      <br />
+      <div className="socialLinks d-flex justify-content-center">
+
+        <a href="https://facebook.com" >
+        <img src={fbIcn} alt="fbIcn" href="https://facebook.com" />
+        </a>
+
+        <a href="https://instagram.com" >
+        <img src={igIcn} alt="igIcn" />
+        </a>
+
+        <br />
+
+        
+
+      </div>
+
+      
+      
+        <h3>*Sporting Events*Weddings*Corporate Events*Private Parties*Community Gatherings*</h3>
+        
+        
         <p style={{textAlign:"center"}}>Please
         submit a completed <a href="/contact">Event Booking Form</a> and we will contact you shortly to
         discuss rates and details. </p>

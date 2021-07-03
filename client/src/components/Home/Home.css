@@ -6,3 +6,28 @@ h3{
 p{
     font-family: LibreBaskerville;
 }
+
+img {
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.aboutUs {
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2.5px;
+}
+
+.socialLinks {
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.foodTruck {
+  height: fit-content;
+  width: fit-content;
+}

@@ -4,9 +4,9 @@ import {
   Card, Col, Container, Button, CardImg, CardTitle, CardText, CardDeck,
   CardSubtitle, CardBody, Row
 } from 'reactstrap';
-import coldCup from '../../images/coldCup.jpg';
+import coldCup from '../../images/IcedDrinks.jpg';
 import hotCup from '../../images/hotCup.jpg';
-import foodImg from '../../images/foodImg.jpg';
+import foodImg from '../../images/HappyTrailsToast.jpg';
 import "./Menu.css";
 import "../../App.css";
 
@@ -16,7 +16,7 @@ import "../../App.css";
 
 export default function Menu(props) {
   return (
-    <div className=".col-sm-12 .col-md-6 .offset-md-3">
+    <div className="d-flex justify-content-center menus">
      
 
       {/* <h1 id="title">Gitsie's Menu</h1>
@@ -31,46 +31,43 @@ export default function Menu(props) {
       </p> */}
       {/* <div> */}
       <Row>
-        <Col md="12" md={{ size: 3, offset: 4 }}>
-          
-          <CardDeck>
-      <Card className="cold">
-        <CardImg className="cardImg" src={coldCup} alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Cold Drink Menu</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-          <Link to={'/coldDrink'}>
-          <Button>Cold Drinks!</Button>
-          </Link>
-        </CardBody>
-      </Card>
-      <Card className="hot">
-        <CardImg className="cardImg" top width="100%" height="35%" src={hotCup} alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Hot Drink Menu</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+      <Col sm="4">
         
-        <Link to={'/hotDrink'}>
+        <Card className="gitcard">
+          <CardTitle tag="h5">Hot Drink Menu</CardTitle>
+          <img className="cardImg" width="25%" src={hotCup} alt="Card image cap" />
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Link to={'/hotDrink'}>
           <Button>Hot Drinks!</Button> 
           </Link>
-          
-        </CardBody>
-      </Card>
-      <Card className="food">
-        <CardImg className="cardImg" top width="100%" height="35%" src={foodImg} alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Food Menu</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-          <Link to={'/food'}>
-          <Button>Food!</Button>
+        </Card>
+        
+      </Col>
+      <Col sm="4">
+        
+        <Card className="gitcard">
+          <CardTitle tag="h5">Cold Drink Menu</CardTitle>
+          <img className="cardImg" width="25%" src={coldCup} alt="Card image cap" />
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Link to={'/coldDrink'}>
+          <Button>Cold Drinks!</Button> 
           </Link>
-        </CardBody>
-      </Card>
-    </CardDeck></Col>
-      </Row>
+        </Card>
+       
+      </Col>
+      <Col sm="4">
+        
+        <Card className="gitcard">
+          <CardTitle tag="h5">Food Menu</CardTitle>
+          <img className="cardImg" width="25%" src={foodImg} alt="Card image cap" />
+          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+          <Link to={'/food'}>
+          <Button>Food!</Button> 
+          </Link>
+        </Card>
+        
+      </Col>
+    </Row>
       
     <br />
       {/* <table class="menuDisplay">
