@@ -1,5 +1,4 @@
 .gitcard {
-
   width: fit-content;
   height: fit-content;
   background: white;
@@ -10,12 +9,20 @@
   text-align: center;
   Font-Family: 'Roboto Condensed', Sans-Serif;
   Font-Size: 35px;
-  Font-Family: 'Cabin', Sans-Serif;
   Font-Size: 16px;
+  margin: 1.5rem;
+}
+
+.cardImg {
+   height: 100%;
+   width: 100%;
 }
 
 .menus {
    padding-top: 15px;
+   background-color: #e96196;
+background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
+ backdrop-filter: blur(5px);
 }
 
 .gitcard:hover {
@@ -45,8 +52,24 @@
    border-width: .5rem;
 }
 
+.fitmen {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   width: 75%;
+   margin-left: 2.5rem;
+   max-height: 40rem;
+   overflow-y: scroll;
+   border: #eb91e3;
+   border-radius: 10px;
+   border-style: solid;
+   border-width: .5rem;
+}
+
 .hotItem {
-    display: inline-block;
+    display: inline-table;
     border: 3px solid #333333;
     font-size: 1rem;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
@@ -54,9 +77,12 @@
     position: relative;
 }
 
-.hotHead {
+
+.fatHead {
    text-align: center;
    align-content: center;
+   display: flex;
+   flex-direction: column;
 }
 
 .addOns {
@@ -64,3 +90,17 @@
    font-weight: bold;
 }
 
+.avos {
+   height: 100%;
+   width: 100%;
+}
+
+.foods {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: rgba(243, 146, 233, 0.534);
+   border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+   border-width: 1rem;
+   border-style: double;
+}

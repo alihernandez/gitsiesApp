@@ -1,6 +1,7 @@
-h3{
+h3 h2 {
     font-family: LibreBaskerville;
     text-align: center;
+    font-weight: bolder;
   }
 
 p{
@@ -15,7 +16,6 @@ img {
 }
 
 .aboutUs {
-  font-weight: bolder;
   text-align: center;
   text-shadow: 2.5px;
 }
@@ -28,6 +28,15 @@ img {
 }
 
 .foodTruck {
-  height: fit-content;
-  width: fit-content;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.gitsiesLogo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }

@@ -19,7 +19,7 @@ function Home() {
         style={{ display: 'flex',  justifyContent:'center', alignItems:'center', height: '50vh'}}
       >
         <animated.div style={props}>
-        <img class="gisiesLogo" alt="gitsielogo" style={{height:"400px", padding: "50px"}}src={logo} />
+        <img className="gitsiesLogo" alt="gitsielogo" src={logo} />
         </animated.div>
       </div>
       <p style={{textAlign:"center"}}>
@@ -47,7 +47,7 @@ looking to find ways to reduce our impact.</p>
 <p>We have specialized in catering world class equestrian events, but have also set up at art fairs,
 corporate events, charity events, concerts, other sporting events, and private parties. Gitsie’s
 can custom design a food menu to suit your event needs and there will always be a full service
-espresso bar. Please contact us to book for the summer of 2021!</p>
+espresso bar. Please <a href="/contact">contact</a> us to book for the summer of 2021!</p>
 <br />
 <img className="foodTruck" src= {foodTruck} alt="fooTru"/>
 <p>We look forward to serving you!</p>
@@ -72,7 +72,7 @@ espresso bar. Please contact us to book for the summer of 2021!</p>
 
       
       
-        <h3>*Sporting Events*Weddings*Corporate Events*Private Parties*Community Gatherings*</h3>
+        <h6>*Sporting Events *Weddings *Corporate Events *Private Parties *Community Gatherings*</h6>
         
         
         <p style={{textAlign:"center"}}>Please

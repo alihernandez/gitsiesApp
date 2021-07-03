@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Card, Col, Container, Button, CardImg, CardTitle, CardText, CardDeck,
-  CardSubtitle, CardBody, Row
+  Card, Col, Button, CardTitle, CardText, Row
 } from 'reactstrap';
 import coldCup from '../../images/IcedDrinks.jpg';
 import hotCup from '../../images/hotCup.jpg';
@@ -35,7 +34,7 @@ export default function Menu(props) {
         
         <Card className="gitcard">
           <CardTitle tag="h5">Hot Drink Menu</CardTitle>
-          <img className="cardImg" width="25%" src={hotCup} alt="Card image cap" />
+          <img className="cardImg" width="25%" src={hotCup} alt="altText" />
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           <Link to={'/hotDrink'}>
           <Button>Hot Drinks!</Button> 
@@ -47,7 +46,7 @@ export default function Menu(props) {
         
         <Card className="gitcard">
           <CardTitle tag="h5">Cold Drink Menu</CardTitle>
-          <img className="cardImg" width="25%" src={coldCup} alt="Card image cap" />
+          <img className="cardImg" width="25%" src={coldCup} alt="altText" />
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           <Link to={'/coldDrink'}>
           <Button>Cold Drinks!</Button> 
@@ -59,7 +58,7 @@ export default function Menu(props) {
         
         <Card className="gitcard">
           <CardTitle tag="h5">Food Menu</CardTitle>
-          <img className="cardImg" width="25%" src={foodImg} alt="Card image cap" />
+          <img className="cardImg" width="25%" src={foodImg} alt="altText" />
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           <Link to={'/food'}>
           <Button>Food!</Button> 
