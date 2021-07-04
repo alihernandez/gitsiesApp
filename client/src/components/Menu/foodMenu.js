@@ -32,7 +32,7 @@ export default function hotDrink(props) {
   return (
     <div className="col fatHead">
       <br />
-      <h1>Gitsie's Food Menu</h1>
+      <span className="pageTitle">Gitsie's Food Menu</span>
       <img className="avos" src={avocados} alt="foodPicf" />
       <br />
       <br />
@@ -46,7 +46,7 @@ export default function hotDrink(props) {
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Wild Berry:
           </Media>
           Mixed Berries, Banana, Spinach, Apple Juice, Chia,
@@ -54,7 +54,7 @@ Flax
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Tropical Green:
           </Media>
           Mango, Pineapple, Banana, Spinach, Soursop
@@ -62,7 +62,7 @@ Juice,Chia
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Strawberry Sunshine:
           </Media>
           Strawberry, Banana, Orange Juice
@@ -87,7 +87,7 @@ Juice,Chia
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           That Berry Bowl:
           </Media>
           Granola, Yogurt, Mixed Berries, Chia, Coconut,
@@ -95,7 +95,7 @@ Honey
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           That Banana Bowl:
           </Media>
           Granola, Yogurt, Banana, Peanut Butter,
@@ -122,7 +122,7 @@ Chocolate Chips
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Avocado Toast:
           </Media>
           Smashed Avo, Lemon, Salt, Pepper, Whole Grain
@@ -130,21 +130,21 @@ Toast *add sriracha or everything bagel seasoning*
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           PBH:
           </Media>
           Peanut Butter, Banana, Honey, Whole Grain Toast
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Happy Trails:
           </Media>
           Peanut Butter, Strawberry, Granola, Coconut, Honey
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Muddy Trails:
           </Media>
           Nutella, Banana, Granola, Coconut, Honey
@@ -166,21 +166,21 @@ Toast *add sriracha or everything bagel seasoning*
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Nutella:
           </Media>
           *add strawberry or banana*
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Ham & Swiss:
           </Media>
 Ham & Swiss- Boarshead Black Forest Ham and Swiss Cheese Melted
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Turkey & Cheddar:
           </Media>
           Boar's Head Ovengold Turkey and Cheddar Cheese
@@ -188,14 +188,14 @@ MeltedBoarshead Black Forest Ham and Swiss Cheese Melted
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Cheese:
           </Media>
           Swiss or Cheddar Cheese
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Spinach Artichoke Parmesan:
           </Media>
           *add ham or turkey*
@@ -221,7 +221,7 @@ MeltedBoarshead Black Forest Ham and Swiss Cheese Melted
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Classic Ham & Swiss:
           </Media>
           Boar’s Head Ham, Cheese, Lettuce, Tomato,
@@ -229,7 +229,7 @@ Mayo,Mustard,Whole Grain or Sourdough Bread
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Classic Turkey & Cheddar:
           </Media>
           Turkey, Cheese, Lettuce, Tomato, Mayo,
@@ -237,7 +237,7 @@ Mustard,Whole Grain or Sourdough Bread
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Caprese:
           </Media>
           Fresh Mozzarella, Tomato, Basil Pesto, Balsamic
@@ -245,7 +245,7 @@ Reduction, Whole Grain or Sourdough Bread
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Green Goddess:
           </Media>
           Fresh Mozzarella, Cucumber, Avocado, Lightly
@@ -272,7 +272,7 @@ Dressed Greens, Whole Grain or Sourdough Bread
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Garden:
           </Media>
           Spring Mix, Tomato, Cucumber, Carrot, Avocado, House
@@ -280,7 +280,7 @@ Vinaigrette
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Chef:
           </Media>
           Spring Mix, Cheddar, Swiss, Turkey, Ham, Tomato, Cucumber,
@@ -288,7 +288,7 @@ Carrot, House Vinaigrette
         </Media>
 
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Caprese:
           </Media>
           Spring Mix, Fresh Mozzarella, Tomato, Balsamic

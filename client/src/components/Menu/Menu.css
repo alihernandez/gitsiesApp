@@ -25,6 +25,12 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
  backdrop-filter: blur(5px);
 }
 
+.pageTitle {
+   font-weight: bolder;
+   font-size: x-large;
+}
+
+
 .gitcard:hover {
    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
@@ -40,16 +46,20 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
    
 }
 
+.itemName {
+   font-weight: bolder;
+}
+
 .hotdrink {
    display: flex;
    flex-direction: column;
    padding:0.5rem;
    max-height: 40rem;
    overflow-y: scroll;
-   border: #dd9ad7;
-   border-radius: 10px;
-   border-style: solid;
-   border-width: .5rem;
+   border: rgba(243, 146, 233, 0.534);
+   border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+   border-width: 1rem;
+   border-style: double;
 }
 
 .fitmen {
@@ -66,6 +76,7 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
    border-radius: 10px;
    border-style: solid;
    border-width: .5rem;
+   margin-bottom: 2rem;
 }
 
 .hotItem {
@@ -73,8 +84,9 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
     border: 3px solid #333333;
     font-size: 1rem;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
-    background: #dd9ad7;
+    background: rgb(255, 255, 255);
     position: relative;
+    margin-bottom: 2rem;
 }
 
 
@@ -91,8 +103,9 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
 }
 
 .avos {
-   height: 100%;
-   width: 100%;
+   height: 75%;
+   width: 75%;
+   align-self: center;
 }
 
 .foods {
@@ -103,4 +116,9 @@ background-image: linear-gradient(315deg, #f31ee6 0%, #ffffff 94%);
    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
    border-width: 1rem;
    border-style: double;
+}
+
+.customBlend {
+   height: 100%;
+   width: 100%;
 }

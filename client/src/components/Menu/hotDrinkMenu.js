@@ -43,10 +43,10 @@ export default function hotDrink(props) {
         <Media src={drip} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Single Source Drip Brew of The Day
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -55,10 +55,10 @@ export default function hotDrink(props) {
           <Media src={ess} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Double Shot Espresso
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -67,10 +67,10 @@ export default function hotDrink(props) {
           <Media src={machiato} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Italian Macchiato
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -79,10 +79,10 @@ export default function hotDrink(props) {
           <Media src={americano} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Americano
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -91,10 +91,10 @@ export default function hotDrink(props) {
           <Media src={latte} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -103,10 +103,10 @@ export default function hotDrink(props) {
           <Media src={cappucino} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Cappuccino
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -115,10 +115,10 @@ export default function hotDrink(props) {
           <Media src={latte} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Mocha Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -127,10 +127,10 @@ export default function hotDrink(props) {
           <Media src={whiteLatte} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           White Mocha Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -142,7 +142,7 @@ export default function hotDrink(props) {
           <Media heading>
           Skinny Vanilla Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -151,10 +151,10 @@ export default function hotDrink(props) {
           <Media src={chaiTea} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Kilogram Chai Tea Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -166,7 +166,7 @@ export default function hotDrink(props) {
           <Media heading>
           Reshi Golden Milk Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
@@ -175,10 +175,10 @@ export default function hotDrink(props) {
           <Media src={matcha} alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Gotcha Matcha Latte
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
       
@@ -187,10 +187,10 @@ export default function hotDrink(props) {
           <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Hot Chocolate *add whipped cream*
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
       
@@ -199,10 +199,10 @@ export default function hotDrink(props) {
           <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
         </Media>
         <Media body>
-          <Media heading>
+          <Media heading className="itemName">
           Hot Tea
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
         </Media>
       </Media>
 
