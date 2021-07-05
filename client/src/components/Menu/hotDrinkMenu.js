@@ -30,10 +30,10 @@ import "./Menu.css";
 
 export default function hotDrink(props) {
   return (
-    <div className="col hotHead">
+    <div className="col fatHead">
       <br />
       <h1>Hot Drinks</h1>
-      <img src={hotCoffee} alt="hotStuff" />
+      <img className="avos" src={hotCoffee} alt="hotStuff" />
       <p>*all hot drinks come in 12oz, 16oz, or 20oz*</p>
 
       <div className="hotdrink">
@@ -184,7 +184,7 @@ export default function hotDrink(props) {
       
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">
@@ -196,7 +196,7 @@ export default function hotDrink(props) {
       
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">

@@ -20,12 +20,6 @@ img {
   text-shadow: 2.5px;
 }
 
-.socialLinks {
-  justify-content: center;
-  padding: 20px;
-  align-items: center;
-
-}
 
 .foodTruck {
   display: flex;

@@ -69,15 +69,6 @@ espresso bar. Please <a href="/contact">contact</a> us to book for the summer of
         
 
       </div>
-
-      
-      
-        <h6>*Sporting Events *Weddings *Corporate Events *Private Parties *Community Gatherings*</h6>
-        
-        
-        <p style={{textAlign:"center"}}>Please
-        submit a completed <a href="/contact">Event Booking Form</a> and we will contact you shortly to
-        discuss rates and details. </p>
      
     </div>
   );

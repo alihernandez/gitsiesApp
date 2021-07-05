@@ -34,7 +34,7 @@ export default function hotDrink(props) {
       <br />
       <span className="pageTitle">Cold Drinks</span>
       <br />
-      <img src={ColdDrinks} alt="hotStuff" />
+      <img className="avos" src={ColdDrinks} alt="hotStuff" />
       <p>*all cold drinks come in 16oz or 20oz*</p>
 
       <div className="hotdrink">
@@ -173,7 +173,7 @@ export default function hotDrink(props) {
       
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">
@@ -184,7 +184,7 @@ export default function hotDrink(props) {
       
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">
@@ -195,7 +195,7 @@ export default function hotDrink(props) {
 
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">
@@ -206,7 +206,7 @@ export default function hotDrink(props) {
 
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">
@@ -217,7 +217,7 @@ export default function hotDrink(props) {
 
       <Media className="mt-1 hotItem">
         <Media left bottom href="#">
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          {/* <Media object data-src="holder.js/64x64" alt="Generic placeholder image" /> */}
         </Media>
         <Media body>
           <Media heading className="itemName">

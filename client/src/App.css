@@ -37,3 +37,17 @@ header {
  height:300px;
  width: max-content;
 }
+
+.footer{
+  background: #ead7e7;
+  border: lightslategrey double .5rem;
+
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  
+}

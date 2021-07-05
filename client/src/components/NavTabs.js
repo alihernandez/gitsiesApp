@@ -1,5 +1,19 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText
+} from 'reactstrap';
 // import '../App.css';
 import "./NavTabs.css";
 function NavTabs() {
@@ -15,6 +29,24 @@ function NavTabs() {
           Home
         </Link>
       </li>
+
+      <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+              <Link to={'/menu'}>Menu</Link>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                <Link to={'/hotDrink'}>Hot Drinks!!</Link>
+                </DropdownItem>
+                <DropdownItem>
+                <Link to={'/coldDrink'}>Cold Drinks!!</Link>
+                </DropdownItem>
+                <DropdownItem>
+                <Link to={'/food'}>Food!!!</Link>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+{/* 
       <li className="nav-item">
         <Link
           to="/menu"
@@ -22,7 +54,7 @@ function NavTabs() {
         >
           Menu
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/calendar"

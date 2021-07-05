@@ -26,6 +26,7 @@ import Learn from "./components/SuperSecret/Learn";
 import hotDrink from "./components/Menu/hotDrinkMenu";
 import coldDrink from "./components/Menu/coldDrinkMenu";
 import food from "./components/Menu/foodMenu";
+import Footer from "./components/Footer/Footer";
 import MenuData from "./components/MenuData/MenuData";
 import food_menu from "./menu.json";
 import './App.css';
@@ -47,6 +48,7 @@ function App() {
         <Route exact path="/hotDrink" component={hotDrink} />
         <Route exact path="/coldDrink" component={coldDrink} />
         <Route exact path="/food" component={food} />
+        <Footer />
       </div>
     </Router>
     </div>
