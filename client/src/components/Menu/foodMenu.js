@@ -38,7 +38,7 @@ export default function hotDrink(props) {
       <br />
       
     <div className="foods">
-      <h4>Smoothie:</h4> 
+      <h1 className="itemTitle">Smoothie:</h1> 
       <p>made to order with fresh fruits and vegetables</p>
       <div className="fitmen">
       <Media className="foodItem">
@@ -80,7 +80,7 @@ Juice,Chia
       <br />
 
       <div className="foods">
-      <h4>Granola Bowl</h4>
+      <h1 className="itemTitle">Granola Bowl:</h1> 
       <div className="fitmen">
       <Media className="foodItem">
         <Media left top href="#">
@@ -115,7 +115,7 @@ Chocolate Chips
       <br />
 
       <div className="foods">
-      <h4>Toast</h4>
+      <h1 className="itemTitle">Toast:</h1> 
       <div className="fitmen">
       <Media className="foodItem">
         <Media left top href="#">
@@ -159,7 +159,7 @@ Toast *add sriracha or everything bagel seasoning*
       <br />
 
       <div className="foods">
-      <h4>Croissant- toasted to perfection</h4>
+      <h1 className="itemTitle">Croissant- toasted to perfection:</h1> 
       <div className="fitmen">
       <Media className="foodItem">
         <Media left top href="#">
@@ -214,7 +214,7 @@ MeltedBoarshead Black Forest Ham and Swiss Cheese Melted
       <br />
 
       <div className="foods">
-      <h4>Sandwich</h4>
+      <h1 className="itemTitle">Sandwich:</h1> 
       <div className="fitmen">
       <Media className="foodItem">
         <Media left top href="#">
@@ -265,7 +265,7 @@ Dressed Greens, Whole Grain or Sourdough Bread
       <br />
 
       <div className="foods">
-      <h4>Salad</h4>
+      <h1 className="itemTitle">Salad:</h1> 
       <div className="fitmen">
       <Media className="foodItem">
         <Media left top href="#">
