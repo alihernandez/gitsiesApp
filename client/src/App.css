@@ -29,6 +29,19 @@ header {
   color: #0ff40f;
 }
 
+.termsText {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+   padding:0.5rem;
+  max-height: 40rem;
+   overflow-y: scroll;
+  width: 75%;
+  border: lightslategrey solid 1rem;
+}
+
 .error {
   color: #960303;
 }

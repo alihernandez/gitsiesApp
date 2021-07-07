@@ -37,7 +37,7 @@ specialty coffee and food, since 2015. One of our co-owners was born and raised 
 valley, so when COVID clipped our wings, we couldn't think of a better place to call home.</p>
 
 <p>Coffee is the foundation and life-blood of our restaurant. We serve only the best coffee that is
-artfully sourced and roasted by STRONGTREE COFFEE. Our food menu was thoughtfully
+artfully sourced and roasted by <a href="https://strongtreecoffee.com/">STRONGTREE COFFEES</a>. Our food menu was thoughtfully
 curated to provide you with simple, fresh, organic and wholesome fare.</p>
 
 <p>Caring for our Earth is very important at Gitsie’s, and all of our disposables (to-go cups,

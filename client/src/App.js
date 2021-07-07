@@ -29,6 +29,7 @@ import food from "./components/Menu/foodMenu";
 import Footer from "./components/Footer/Footer";
 import MenuData from "./components/MenuData/MenuData";
 import food_menu from "./menu.json";
+import Terms from "./components/TermsServices/Terms";
 import './App.css';
 
 
@@ -48,6 +49,7 @@ function App() {
         <Route exact path="/hotDrink" component={hotDrink} />
         <Route exact path="/coldDrink" component={coldDrink} />
         <Route exact path="/food" component={food} />
+        <Route exact path="/terms" component={Terms} />
         <Footer />
       </div>
     </Router>

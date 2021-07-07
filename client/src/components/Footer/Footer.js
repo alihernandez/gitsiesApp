@@ -47,7 +47,8 @@ const Footer = (props) => {
 
         </div>
 
-        <p style={{textAlign:"center"}}>&copy; Gitsie's Coffee and Provisions</p>
+        <p style={{textAlign:"center"}}>&copy; Gitsie's Coffee and Provisions 2021</p>
+        <a href="/Terms"><p style={{textAlign:"center"}}>Terms & Services</p></a>
         
     </div>
   );
